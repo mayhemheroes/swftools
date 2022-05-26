@@ -1,5 +1,5 @@
 project: rnshah9/swftools
-target: swftools
+target: swfdump
 
 cmds:
   - cmd: /repo/src/swfdump @@
