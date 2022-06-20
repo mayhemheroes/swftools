@@ -1,4 +1,4 @@
-project: rnshah9/swftools
+project: swftools
 target: swfdump
 
 cmds:
