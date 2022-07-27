@@ -2,4 +2,4 @@ project: swftools
 target: swfdump
 
 cmds:
-  - cmd: /repo/src/swfdump @@
+  - cmd: /install/bin/swfdump @@
