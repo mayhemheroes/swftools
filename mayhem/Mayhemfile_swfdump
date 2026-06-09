@@ -1,0 +1,8 @@
+project: swftools
+target: swfdump
+
+testsuite:  # mayhem-lint: keep-testsuite — swfdump is format-gated; random bytes fail the SWF magic check (FWS/CWS) immediately; a valid .swf seed is required to reach real parsing code
+  - file://mayhem/testsuite/swfdump
+
+cmds:
+  - cmd: /mayhem/swfdump @@
